@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Mike Dopp: DevOps and SRE engineer</title>
+  <desc id="d">Release pipelines and AI automation. Public projects: BoardScout and Multi_Install_ISO.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#111a36"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c9cff"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#7c9cff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7c9cff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, "Cascadia Mono", Consolas, "SF Mono", Menlo, monospace; }
+      .led { animation: blink 3.2s ease-in-out infinite; }
+      .l2 { animation-delay: .8s; } .l3 { animation-delay: 1.6s; } .l4 { animation-delay: 2.4s; }
+      @keyframes blink { 0%, 70%, 100% { opacity: 1; } 80% { opacity: .25; } }
+      @media (prefers-reduced-motion: reduce) { .led { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="380" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="17.5" fill="none" stroke="#2a3559"/>
+
+  <!-- rack rail -->
+  <g fill="#1a2445" stroke="#2a3559">
+    <rect x="28" y="28" width="26" height="324" rx="5"/>
+  </g>
+  <g fill="#0b1020" stroke="#3a4670">
+    <circle cx="41" cy="52" r="4"/><circle cx="41" cy="112" r="4"/><circle cx="41" cy="172" r="4"/>
+    <circle cx="41" cy="232" r="4"/><circle cx="41" cy="292" r="4"/><circle cx="41" cy="330" r="4"/>
+  </g>
+
+  <text class="mono" x="84" y="66" font-size="18" fill="#5eead4" letter-spacing="3">UTAH · DEVOPS · SRE</text>
+  <text x="82" y="134" font-size="68" font-weight="700" fill="#f4f6fb" letter-spacing="-1">Mike Dopp</text>
+  <text x="84" y="178" font-size="26" fill="#b9c4e6">DevOps &amp; SRE engineer · Release pipelines · AI automation</text>
+  <rect x="84" y="200" width="220" height="4" rx="2" fill="url(#line)"/>
+
+  <!-- project tiles -->
+  <g>
+    <g transform="translate(84,232)">
+      <rect width="524" height="116" rx="12" fill="#101936" stroke="#2a3559"/>
+      <circle class="led" cx="500" cy="24" r="5" fill="#5eead4"/>
+      <text x="20" y="54" font-size="32" font-weight="700" fill="#f4f6fb">BoardScout</text>
+      <text x="20" y="90" font-size="19" fill="#9aa7cf">Maps a PC's board, drivers and storage · C# · .NET 10</text>
+    </g>
+    <g transform="translate(628,232)">
+      <rect width="524" height="116" rx="12" fill="#101936" stroke="#2a3559"/>
+      <circle class="led l3" cx="500" cy="24" r="5" fill="#7c9cff"/>
+      <text x="20" y="54" font-size="32" font-weight="700" fill="#f4f6fb">Multi_Install_ISO</text>
+      <text x="20" y="90" font-size="19" fill="#9aa7cf">Servers straight from install ISOs · PowerShell</text>
+    </g>
+  </g>
+
+  <text class="mono" x="1152" y="66" font-size="18" fill="#6f7ca8" text-anchor="end">20+ yrs infra · 10+ DevOps</text>
+</svg>
